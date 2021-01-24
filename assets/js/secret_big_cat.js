@@ -18,9 +18,9 @@ const controls = new OrbitControls(camera, renderer.domElement);
 var light = new THREE.HemisphereLight( 0xffffff, 0x222222, 4 );
 scene.add( light );
 
-const big_cat = new GLTFLoader();
+const loader = new GLTFLoader();
 
-big_cat.load( './assets/images/slim_big_cat_hq.glb', function ( gltf ) {
+loader.load( './assets/images/slim_big_cat_hq.glb', function ( gltf ) {
   console.log(gltf);
   //gltf.scene.position.z = -10;
   gltf.scene.scale.set(3, 3, 3);
