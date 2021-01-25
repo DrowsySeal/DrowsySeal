@@ -20,7 +20,7 @@ scene.add( light );
 
 const loader = new GLTFLoader();
 
-loader.load( './assets/images/slim_canine_hq.glb', function ( gltf ) {
+loader.load( './assets/images/jawsets.glb', function ( gltf ) {
   console.log(gltf);
   //gltf.scene.position.z = -10;
   scene.add( gltf.scene );
