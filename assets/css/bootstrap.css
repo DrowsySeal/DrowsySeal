@@ -1097,7 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #0e617f;
+  color: #00272b;
   text-decoration: none;
 }
 a:hover,
@@ -1158,9 +1158,10 @@ hr {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
+  border: 0 ;
+  color: #89a8b0;
 }
-.sr-only-focusable:active,
+le:active,
 .sr-only-focusable:focus {
   position: static;
   width: auto;
