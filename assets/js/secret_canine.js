@@ -1,10 +1,11 @@
-import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js';
-import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/GLTFLoader';
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+import { GLTFLoader } from 'https://unpkg.com/three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'https://unpkg.com/three/examples/jsm/controls/OrbitControls.js';
+
 
 var scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 1000 );
-camera.position.set(0, 0, 1);
+camera.position.set(0, 0, 25);
 var renderer = new THREE.WebGLRenderer({
   antialias: true
 });
@@ -14,16 +15,14 @@ document.body.appendChild(canvas);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
-// var light = new THREE.HemisphereLight( 0xffffff, 0x222222, 1 );
-// scene.add( light );
+var light = new THREE.HemisphereLight( 0xffffff, 0x222222, 4 );
+scene.add( light );
 
 const loader = new GLTFLoader();
 
-loader.load( './assets/images/Craftroom_Plans2.glb', function ( gltf ) {
+loader.load( './assets/images/jawsets.glb', function ( gltf ) {
   console.log(gltf);
-  gltf.scene.position.z = -5;
-  gltf.scene.position.x = -2;
-  gltf.scene.position.y = -2;
+  //gltf.scene.position.z = -10;
   scene.add( gltf.scene );
 
 }, undefined, function ( error ) {
