@@ -1,4 +1,8 @@
-
+/*
+#0e617f
+#d9ee91
+#00272b
+*/
 
 /*
 Author: Xpeedstudio
@@ -29,7 +33,7 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     font-size: 14px;
-    color: #555b6e;
+    color: #00272b;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -116,11 +120,11 @@ section { overflow: hidden; }
 .lightbg {
     background-color: #f2f2f2;
 }
-.bg-primary{background-color: #93d8dc;}
-.bg-finence{background-color:#93d8dc;}
-.bg-mega{background-color:#1e2024;}
+.bg-primary{background-color: #0e617f;}
+.bg-finence{background-color:#d9ee91;}
+.bg-mega{background-color:#00272b;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background-color: #292b31;}
+.bg-black{background-color: #0e617f;}
 .bg-white{background-color: #fff;}
 
 img {
@@ -219,7 +223,7 @@ h5,
 h6 {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    color:#555b6e;
+    color:#00272b;
     margin-bottom: 10px;
 }
 
@@ -378,15 +382,15 @@ Button
 }
 .btn-primary{
     color: #fff;
-    background-color: #93d8dc;
+    background-color: #0e617f;
     border:1px solid;
-    border-color: #93d8dc;
+    border-color: #0e617f;
 
 }
 .btn-primary:hover{
-    background-color: #eee;
-    border-color: #eee;
-    color:#93d8dc;
+    background-color: #239fb7;
+    border-color: #239fb7;
+    color:#fff;
 }
 
 .btn-default{
@@ -833,14 +837,14 @@ textarea::-ms-input-placeholder{
 /*
 Nav Menu style
 ==================*/
-
+/* 
 .navbar-brand {
     padding: 25px 15px;
-}
+} */
 
 .navbar-brand > img {
     display: block;
-    max-height: 30px;
+    max-height: 50px;
 }
 
 .navbar-callus li a{
@@ -871,7 +875,7 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/home-bg.png) no-repeat scroll  center center;
+    background: url(../images//faeora.png) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 300px;
@@ -1253,7 +1257,7 @@ work Section style
     background-color: #93d8dc;
 }
 .widget_item li a{
-    color:#b5edef;
+    color:#d9ee91;
 }
 .widget_item li a:hover{
     color:#fff;
@@ -1266,7 +1270,7 @@ work Section style
 .widget_service li i,
 .widget_latst_item_text a{
     font-size:12px;
-    color:#b5edef;
+    color:#fff;
 }
 .widget_service li i{
     margin-right: 5px;
@@ -1328,19 +1332,44 @@ work Section style
 .widget_brand a{
     font-size:30px;
     font-weight: 800;
-    color:#b5edef;
+    color:#d9ee91;
 }
 .widget_newsletter li a i{
-    color:#b5edef;
+    color:#d9ee91;
 }
 
 
 .main_footer i {
     padding: 0px 5px;
-    color: #292b31;
+    color: #d9ee91;
 }
 
 .main_footer a {
-    color: #b5edef;
+    color: #d9ee91;
     padding: 5px;
+}
+
+#footer-link a {
+    color: #d9ee91;
+}
+
+.widget_ab_item_text a, .widget_ab_item {
+    color: #d9ee91;
+}
+
+.widget_ab_item_text:hover, .widget_ab_item_text a:hover, .widget_ab_item:hover {
+    color: #fff;
+}
+
+
+.widget_ab_item {
+    color: #fff;
+}
+
+.widget_ab_item_text {
+    color: #fff;
+}
+
+.main_footer p {
+    color: #fff;
 }
