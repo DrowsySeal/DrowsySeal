@@ -310,6 +310,7 @@ Section
 ul{
     margin:0;
     padding:0;
+    padding-left:1em;
     list-style:none;
 }
 
@@ -974,10 +975,18 @@ Featured section style
     font-size:26px;
     font-weight: 800;
 }
+
+.business_item ul{
+    display: inline-block;
+    margin: 0;
+    margin-top: -20px;
+}
 .business_item li{
-    font-size:18px;
+    list-style-type: circle;
+    font-size:14px;
     font-weight: 300;
     line-height: 2rem;
+    margin-right:10px;
 }
 .business_item li i{
     font-size:12px;
