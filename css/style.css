@@ -183,6 +183,10 @@ Darkest: #222226
 
 /* ------------- MISC */
 
+.portfolio img {
+    border-radius: 0.5rem;
+}
+
 .portfolio-item {
     display: block;
 }
