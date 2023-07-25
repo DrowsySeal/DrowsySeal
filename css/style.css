@@ -199,8 +199,9 @@ Darkest: #222226
     font-size: 5rem;
 }
 
-#socials i {
-    padding: 1rem;
+#socials span {
+    font-size: 2rem;
+    display:block;
 }
 
 
